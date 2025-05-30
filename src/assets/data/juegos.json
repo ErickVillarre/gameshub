@@ -511,6 +511,74 @@
         "https://play-lh.googleusercontent.com/screenshot2.jpg"
       ],
       "tags": ["MOBA", "Mobile", "5v5", "Estrategia"]
+    },
+        {
+      "id": 16,
+      "nombre": "Gran Turismo 7",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202109/1321/eFGBuaRr21HUpGtsy3biwJip.png",
+      "categoria": "Sports",
+      "desarrollador": "Polyphony Digital",
+      "fechaLanzamiento": "2023-09-08",
+      "descripcion": "NBA 2K24 presenta a Kobe Bryant mientras redefine lo que significa Mamba Mentality con innovación y autenticidad.",
+      "rating": 4.5,
+      "plataformas": ["PC", "PlayStation"],
+      "precio": 69.99,
+      "esGratis": false,
+      "requisitos": {
+        "minimos": {
+          "os": "Windows 10 64-bit",
+          "procesador": "Intel Core i3-2100",
+          "memoria": "4 GB RAM",
+          "graficos": "NVIDIA GeForce GT 450",
+          "almacenamiento": "110 GB"
+        },
+        "recomendados": {
+          "os": "Windows 11 64-bit",
+          "procesador": "Intel Core i5-4430",
+          "memoria": "8 GB RAM",
+          "graficos": "NVIDIA GeForce GTX 770",
+          "almacenamiento": "110 GB"
+        }
+      },
+      "screenshots": [
+        "https://nba2k24.2k.com/assets/images/screenshot1.jpg",
+        "https://nba2k24.2k.com/assets/images/screenshot2.jpg"
+      ],
+      "tags": ["Baloncesto", "Deportes", "Simulación", "MyCAREER"]
+    },
+        {
+      "id": 17,
+      "nombre": "The Legend of Zelda:BOTW",
+      "imagen": "https://media.es.wired.com/photos/638fd68c7db986e0c2d6b19a/master/pass/Breath-of-the-Wild-Casual-Gamer-Culture.jpg",
+      "categoria": "adventure",
+      "desarrollador": "Nintendo EPD",
+      "fechaLanzamiento": "2023-09-08",
+      "descripcion": "NBA 2K24 presenta a Kobe Bryant mientras redefine lo que significa Mamba Mentality con innovación y autenticidad.",
+      "rating": 4.9,
+      "plataformas": ["Nintendo Switch"],
+      "precio": 59.99,
+      "esGratis": false,
+      "requisitos": {
+        "minimos": {
+          "os": "Windows 10 64-bit",
+          "procesador": "Intel Core i3-2100",
+          "memoria": "4 GB RAM",
+          "graficos": "NVIDIA GeForce GT 450",
+          "almacenamiento": "110 GB"
+        },
+        "recomendados": {
+          "os": "Windows 11 64-bit",
+          "procesador": "Intel Core i5-4430",
+          "memoria": "8 GB RAM",
+          "graficos": "NVIDIA GeForce GTX 770",
+          "almacenamiento": "110 GB"
+        }
+      },
+      "screenshots": [
+        "https://nba2k24.2k.com/assets/images/screenshot1.jpg",
+        "https://nba2k24.2k.com/assets/images/screenshot2.jpg"
+      ],
+      "tags": ["Baloncesto", "Deportes", "Simulación", "MyCAREER"]
     }
   ],
   "categorias": [
@@ -555,6 +623,13 @@
       "icono": "bi-trophy",
       "descripcion": "Juegos deportivos con simulación realista de diferentes disciplinas",
       "color": "#4ecdc4"
+    },
+    {
+      "id": "adventure",
+      "nombre": "Adventure",
+      "icono": "bi-compass",
+      "descripcion": "Juegos de aventura  y exploracion con narrativas epicas",
+      "color": "#9b59b6"
     }
   ]
 }
