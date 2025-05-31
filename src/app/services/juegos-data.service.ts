@@ -86,4 +86,32 @@ export class JuegosDataService {
       )
     );
   }
+
+getJuegosPorPrecio(min: number, max: number): Observable<Juego[]> {
+  return this.juegos$.pipe(
+    map(juegos => juegos.filter(juego => juego.precio >= min && juego.precio <= max))
+  );
+}
+getEstadisticas(): Observable<any> {
+    return this.juegos$.pipe(
+      map(juegos => {
+        const totalJuegos = juegos.length;
+        const juegosGratis = juegos.filter(j => j.precio === 0).length;
+        const juegosPago = totalJuegos - juegosGratis;
+        const mejorRating = Math.max(...juegos.map(j => j.rating || 0));
+        const promedioPrecio = totalJuegos > 0
+          ? juegos.reduce((sum, j) => sum + j.precio, 0) / totalJuegos
+          : 0;
+
+        return {
+          totalJuegos,
+          juegosGratis,
+          juegosPago,
+          mejorRating,
+          promedioPrecio: parseFloat(promedioPrecio.toFixed(2))
+        };
+      })
+    );
+  }
+
 }
